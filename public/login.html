@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>.box{background-color:gainsboro;padding:10px;display:inLine-block;margin:10px;height:100px}</style>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+
+</head>
+<!--Login/logout-->
+<div class="box">
+    <input id="email" type="email" placeholder="Email"><br>
+    <input id="password" type="password" placeholder="Password"><br><br>
+    <button id="login">Login</button>
+    <button id="signup">SignUp</button>
+    <button id="logout" style="display:none;">Logout</button>
+    <div id="loginMsg"></div>
+</div><br>
+
+<div class="box">
+    <button onClick="callOpenRoute()">Call Open Route</button>
+    <button onClick="callAuthRoute()">Call Auth Route</button>
+    <div id="routeMsg"></div>
+</div>
+
+<script src="login.js"></script>
+
+</html>
