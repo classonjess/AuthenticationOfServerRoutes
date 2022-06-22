@@ -3,7 +3,7 @@ const admin = require('firebase-admin');
 //firebase service account package
 const type = "service account";
 const project_id = "fir-authusing";
-const private_key_id = "bbe9fe819db87b42ec300e7777649c4294334e88";
+const private_key_id = "";
 const private_key = "-----BEGIN PRIVATE KEY-----";
 const client_email = "firebase-adminsdk-pdy27@fir-authusing.iam.gserviceaccount.com";
 const client_i ="115379758598617516163";
